@@ -5,7 +5,7 @@
     <title>My Music Encoding Project - Dancing Queen</title>
     <meta charset="utf-8">
     <meta name="description" content="My project - Dancing Queen">
-    <meta name="author" content="Me">
+    <meta name="author" content="Lucy Boyle">
     <link rel="stylesheet" href="css/style.css" media="all" />
     <script src="js/verovio-toolkit.js"></script>
     <script src="js/utils.js"></script>
@@ -56,9 +56,6 @@
             var parser = new DOMParser()
             var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='DQ']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='DQ2']").textContent + "</p></a>"
-          }
-        }
-      }
     </script>
   </body>
 
