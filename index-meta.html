@@ -12,9 +12,9 @@
   </head>
 
   <titleStmt xml:id="m-7“>
-  <title authURI="https://en.wikipedia.org/wiki/Dancing_Queen" authority="Wikipedia" xml:id="m- 8">Dancing Queen (Recorded 4–5 August 1975)</title>
+  <title authURI="https://en.wikipedia.org/wiki/Dancing_Queen" authority="Wikipedia" xml:id="DQ">Dancing Queen (Recorded 4–5 August 1975)</title>
   <title type="subtitle" authURI="https://en.wikipedia.org/wiki/Dancing_Queen" authority ="Wikipedia"
-  xml:id="m-8a">Lockung. Op. 3, No. 1</title>/>
+  xml:id="DQ2">Lockung. Op. 3, No. 1</title>/>
   <respStmt>
   <persName role="cmp" startdate="1975" enddate="1976“ authURI="https://en.wikipedia.org/wiki/Dancing_Queen"
   authority="VIAF" xml:id="workcreator"> Songwriters: Benny Andersson, Björn Ulvaeus & Stig Anderson. </persName>
@@ -55,12 +55,7 @@
           if (xhr.status === OK) {
             var parser = new DOMParser()
             var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
-            /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
-            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
-           */
-           /* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
-            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
-            */
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='DQ']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='DQ2']").textContent + "</p></a>"
           }
         }
       }
