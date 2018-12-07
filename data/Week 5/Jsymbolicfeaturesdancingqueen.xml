@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>I:\Music Analytics\Music Analytics\FINAL\Dancing Queen.mid</data_set_id>
+		<feature>
+			<name>Basic Pitch Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.935E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.561E-2</v>
+			<v>0E0</v>
+			<v>3.165E-2</v>
+			<v>0E0</v>
+			<v>1.978E-3</v>
+			<v>1.177E-1</v>
+			<v>0E0</v>
+			<v>8.902E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.935E-3</v>
+			<v>7.913E-3</v>
+			<v>2.967E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.956E-3</v>
+			<v>2.374E-2</v>
+			<v>0E0</v>
+			<v>2.572E-2</v>
+			<v>0E0</v>
+			<v>5.539E-2</v>
+			<v>3.363E-2</v>
+			<v>0E0</v>
+			<v>8.309E-2</v>
+			<v>6.924E-3</v>
+			<v>5.935E-2</v>
+			<v>0E0</v>
+			<v>6.825E-2</v>
+			<v>1.177E-1</v>
+			<v>0E0</v>
+			<v>8.704E-2</v>
+			<v>0E0</v>
+			<v>7.418E-2</v>
+			<v>2.572E-2</v>
+			<v>0E0</v>
+			<v>3.66E-2</v>
+			<v>0E0</v>
+			<v>2.77E-2</v>
+			<v>0E0</v>
+			<v>1.583E-2</v>
+			<v>2.967E-2</v>
+			<v>0E0</v>
+			<v>3.956E-3</v>
+			<v>0E0</v>
+			<v>2.967E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>2.8E1</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>4.8E1</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>6.3E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch</name>
+			<v>4.5E1</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
