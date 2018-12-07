@@ -14,3 +14,7 @@ I will look at the work of Swedish pop band Abba.
 
 The work of Abba has been widely curated and stored. It can be found in notated, descriptive and acoustic formats easily online. If we look at Apple Music for example, we can see it holds acoustic and descriptive data on the music it has. Descriptive data being the way the music is displayed on screen, showing the artist, song, duration, album, producer etc etc. Acoustic data being the actual sound file and the way we hear the songs played. Apple music does not, as far as I can see, hold any notated data.
 However notated data is easy to find online for the works of Abba. Looking at sheetsdaily.com we are able to find scores of Abba music for several instruments and songs. 
+
+Week 8:
+
+Task 2.2: The waveform displays the amplitude or level changes throughout the song  and the spectrogram displays much the same information; showing the frequencies which make up sound, from low to high . The difference lies in their appearance and interpretability. I believe the time-frequency spectrogram based analysis has a visual advantage over the waveform based analysis as it is easier to view the frequency data it contains. 
